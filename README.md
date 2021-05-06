@@ -8,7 +8,7 @@ Unit test with coverage result <br>
 ![Sceenshot2](Screenshot/Screenshot_2.png) 
 
 ### Note
-To check out the documentation for the rest template covid 19 API using swagger UI just visit the link down below<br>
+To check out the documentation for the restfull api using spring boot and swagger just visit the link down below<br>g
 localhost:8080/swagger-ui/<br>
 Don't forget to adding slash after swagger-ui<br>
 
