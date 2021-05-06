@@ -2,9 +2,9 @@
 Making Restfull API using Spring Boot and Swagger for documentation API
 
 ### Screenshot
-localhost:8080/swagger-ui/#/mahasiswa-controller
+localhost:8080/swagger-ui/#/mahasiswa-controller <br>
 ![Sceenshot1](Screenshot/Screenshot_1.png) <br>
-Unit test with coverage result
+Unit test with coverage result <br>
 ![Sceenshot2](Screenshot/Screenshot_2.png) 
 
 ### Note
