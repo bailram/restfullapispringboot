@@ -29,7 +29,7 @@ public class MahasiswaController {
     @GetMapping("/{nim}")
     public ResponseEntity<Mahasiswa> findByNim(@PathVariable(value = "nim") int nim) {
         Mahasiswa result = mahasiswaService.findByNim(nim);
-        if (result != null || result.getNim() != 0) {
+        if (result != null ) {
             return new ResponseEntity<>(result, HttpStatus.OK);
         } else {
             return new ResponseEntity<>(result, HttpStatus.NOT_FOUND);
