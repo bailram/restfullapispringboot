@@ -24,7 +24,7 @@ class MahasiswaRepositoryTest {
 ```
 
 example unit test for repository checkout this file :
-[MahasiswaRepositoryTest.java](https://spring.io/guides/tutorials/rest/) <br>
+[MahasiswaRepositoryTest.java](https://github.com/bailram/restfullapispringboot/blob/main/src/test/java/com/bailram/restfullapi/repository/MahasiswaRepositoryTest.java) <br>
 
 Screenshot<br>
 ![Sceenshot3](Screenshot/Screenshot_3.png)<br>
