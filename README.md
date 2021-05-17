@@ -8,6 +8,26 @@ Unit test with coverage result <br>
 ![Sceenshot2](Screenshot/Screenshot_2.png) 
 
 ### H2 Setup for unit test
+pom.xml <br>
+```xml
+<dependencies>
+    ...
+    <!--  H2 dependency start  -->
+    <dependency>
+        <groupId>com.h2database</groupId>
+        <artifactId>h2</artifactId>
+        <scope>test</scope>
+    </dependency>
+    <!--  H2 dependency end  -->
+    <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-test</artifactId>
+        <scope>test</scope>
+    </dependency>
+    ...
+</dependencies>
+```
+
 application.properties on (restfullapi/src/test/resources/application.properties)
 ```properties
 spring.datasource.url=jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1
